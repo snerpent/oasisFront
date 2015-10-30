@@ -50,9 +50,13 @@
 		</div> <!-- end container -->
 		
 		
-		
+		<!-- Check online  -->
 		<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<!-- If no online access, fallback to our hardcoded version o f jQuery  -->
+		<script>window.jQuery || document.write('<script src="includes/js/jquery.min.js"><\/script>')</script>
+		<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>>
+		<!-- Custom JS -->
 		<script src="includes/js/script.js"></script>
 	</body>
-
+</html>
