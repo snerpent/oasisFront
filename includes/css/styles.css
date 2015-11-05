@@ -24,6 +24,28 @@
 	Carousel
 
 	*/
+#myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+	background: url('../../images/carouselLarge1.jpg') top center no-repeat;
+}
+#slide2 {
+	background: url('../../images/carouselLarge2.jpg') top center no-repeat;
+}
+#slide3 {
+	background: url('../../images/carouselLarge3.jpg') top center no-repeat;
+}
 /*
 	Global Styles
 
@@ -36,24 +58,39 @@
 /* Portrait & landscape */
 @media (max width: 480px){
 
+	}
+
 }
 
-/* Landscape phoe to portrait tablet */
+/* Landscape phone to portrait tablet */
 @media (max width: 768px){
 
+	#myCarousel .item { height: 310px; }
+
+	#slide1 {
+		background: url('../../images/carouselSmall.jpg') top center no-repeat;
+	}
+	#slide2 {
+		background: url('../../images/carouselSmall.jpg') top center no-repeat;
+	}
+	#slide3 {
+		background: url('../../images/carouselSmall.jpg') top center no-repeat;
+	}
+
+
 }
 
-/* Uup to small desktop */
-@media (max width: 979px){
+@media (max width: 1200px){
 
-}
+	#myCarousel .item { height: 500px; }
 
-/* Small desktop  & up */
-@media (max width: 979px){
-
-}
-
-/* Portrait & landscape */
-@media (max width: 480px){
-
+	#slide1 {
+		background: url('../../images/carouselLarge1.jpg') top center no-repeat;
+	}
+	#slide2 {
+		background: url('../../images/carouselLarge2.jpg') top center no-repeat;
+	}
+	#slide3 {
+		background: url('../../images/carouselLarge3.jpg') top center no-repeat;
+	}
 }
