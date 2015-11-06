@@ -19,7 +19,12 @@
 #features img {
 	margin: 0 0 20px;
 }
-
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
 /*
 	Typography
 
@@ -35,6 +40,10 @@ body {
 }
 .well .page-header h1 {
 	margin-top: 0px;
+}
+ul.unstyled {
+	list-style: none;
+	padding: 0;
 }
 /*
 	Navbar
