@@ -17,7 +17,7 @@
 }
 
 #features img {
-	margin: 0 0 20px;
+	margin: 20 20 20px;
 }
 footer {
 	background: #333;
@@ -53,6 +53,12 @@ ul.unstyled {
 	Navbar
 
 	*/
+.navbar-default {
+	/* background-color: white; */
+	background-color: rgba(255, 255, 255, 0.9);
+
+}
+
 /*
 	Carousel
 
